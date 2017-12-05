@@ -25,9 +25,6 @@ Or install it yourself as:
 
 In your project:
 
-```ruby
-include BreadcrumbsHelper
-```
 In your controller call the method, you can also pass an array with elements you dont want to show:
 
 ```ruby
