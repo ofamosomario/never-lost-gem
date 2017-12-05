@@ -36,6 +36,26 @@ Neverlost::path request.path , [0,2] , true : all breadcrumbs links are allowed.
 Neverlost::path request.path , [0,2] , true , '>>' : delimiter now seems >> , you can also pass a html code, like: fa fa-arrow-right.
 ```
 
+## Examples
+![enter image description here](http://www.greenmelon.com.br/arquivos_green/gem1.png) 
+
+```html
+Neverlost::path request.path , []
+```
+
+----------
+
+![enter image description here](http://www.greenmelon.com.br/arquivos_green/gem2.png) 
+```html
+Neverlost::path request.path , [0,2] , false , '<i class="fa fa-arrow-up" aria-hidden="true" style="color:green"></i>'
+```
+----------
+
+![enter image description here](http://www.greenmelon.com.br/arquivos_green/gem3.png) 
+
+```html
+Neverlost::path request.path , [0,2] , false , <i class="fa fa-arrow-down" aria-hidden="true" style="color:red"></i>
+```
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
