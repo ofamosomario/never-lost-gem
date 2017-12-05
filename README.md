@@ -5,14 +5,14 @@
 
 # NeverLost Path For Rails
 
-Don't get lost! Use Joao e Maria in your project and do a simple breadcrumb.
+Don't get lost! Use NeverLost in your project and do a simple breadcrumb.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'joao_e_maria'
+gem 'neverlost'
 ```
 
 And then execute:
@@ -21,7 +21,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install joao_e_maria
+    $ gem install neverlost
 
 In your project:
 
